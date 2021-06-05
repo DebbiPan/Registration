@@ -1,0 +1,87 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+h1,
+h2,
+h3{
+ font-weight: 550;
+}
+input{
+  border:none;
+  border-bottom:1px solid #D5D5D5;
+  width:100%;
+  line-height: 30px;
+}
+header{
+  background:#6C97B9;
+  color:#fff;
+  text-align: center;
+  padding:8px;
+}
+header > h1{
+  font-size:16px;
+}
+header > h2{
+  font-size:16px;
+}
+main{
+  background:#EAE8EC;
+  line-height:30px;
+}
+.container{
+  border-radius: 20px;
+  background:#ffffff;
+  padding:10px;
+}
+main h3{
+  font-size:16px;
+}
+main .import::before{
+  content:"*";
+  color:red;
+}
+select{
+  width:100%;
+  line-height: 30px;
+  text-align: center;
+}
+.select-css{
+  line-height: 30px;
+}
+button{
+  width:100%;
+  height:30px;
+  background:#6C97B9;
+  border:none;
+  border-radius: 3px;
+  color:#fff;
+}
+textarea{
+  width:100%;
+  height: 100px;
+  border:none;
+  margin:20px 0;
+}
+th,td {
+  border:1px solid #000
+}
+table {
+  width: 100%;
+  min-height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 5px;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px #000;
+}
+.repair{
+  margin:5px;
+}
+.sel{
+  line-height:30px;
+}
+
+
